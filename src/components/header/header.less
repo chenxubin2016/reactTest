@@ -1,0 +1,29 @@
+@import '../../less/customStyle.less';
+.header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:0 0.3rem;
+  background-color: @f4f4f4;
+  >div{
+    flex: 1;
+    >span{
+      display: block;
+      text-align: center;
+      font-size: 0.36rem;
+      height: 0.9rem;
+      line-height: 0.9rem;
+    }
+  }
+  .isLeft{
+    span{
+      text-align: left;
+      margin-left: -0.1rem;
+    }
+  }
+  .isRight{
+    span{
+      text-align: right;
+    }
+  }
+}

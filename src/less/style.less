@@ -1,0 +1,92 @@
+@import (reference) 'customStyle.less';
+// @media screen and (orientation: portrait) {}//竖屏
+// @media screen and (orientation: landscape) {}//横屏
+html {
+  font-size: 40px;
+  background-color: #fff;
+  font-family: @fontface;
+  body {
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    margin: 0;
+    padding: 0;
+  }
+}
+
+/*竖屏 css*/
+@media only screen and (min-width:360px) and (orientation: portrait) {
+  html {
+    font-size: 46px !important
+  }
+}
+
+@media only screen and (min-width:375px) and (orientation: portrait) {
+  html {
+    font-size: 50px !important
+  }
+}
+
+@media only screen and (min-width:400px)and (orientation: portrait) {
+  html {
+    font-size: 53.325px !important
+  }
+}
+
+@media only screen and (min-width:414px) and (orientation: portrait) {
+  html {
+    font-size: 55.2px !important
+  }
+}
+
+@media only screen and (min-width:480px) and (orientation: portrait) {
+  html {
+    font-size: 64px !important
+  }
+} // ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: portrait) {
+  html {
+    font-size: 64px !important
+  }
+}
+
+
+/*横屏*/
+
+@media only screen and (min-width:360px) and (orientation: landscape) {
+  html {
+    font-size: 46px !important
+  }
+}
+@media only screen and (min-width:375px) and (orientation: landscape) {
+  html {
+    font-size: 50px !important
+  }
+}
+
+@media only screen and (min-width:400px)and (orientation: landscape) {
+  html {
+    font-size: 53.325px !important
+  }
+}
+
+@media only screen and (min-width:414px) and (orientation: landscape) {
+  html {
+    font-size: 55.2px !important
+  }
+}
+
+@media only screen and (min-width:480px) and (orientation: landscape) {
+  html {
+    font-size: 64px !important
+  }
+} // ipad
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
+  html {
+    font-size: 64px !important
+  }
+}
+
